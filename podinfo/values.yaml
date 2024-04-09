@@ -4,3 +4,9 @@ nodeSelector:
 securityContext:
   runAsNonRoot: true
   runAsUser: 1001
+
+tolerations:
+- key: "cnaps.io/node-taint"
+  operator: "Equal"
+  value: "noncore"
+  effect: "NoSchedule"
