@@ -12,5 +12,7 @@ components:
         namespace: podinfo-namespace
         releaseName: podinfo
         url: https://stefanprodan.github.io/podinfo
+        valuesFiles:
+        - values.yaml
     images:
       - ghcr.io/stefanprodan/podinfo:6.6.1

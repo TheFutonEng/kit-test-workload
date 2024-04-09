@@ -1,1 +1,6 @@
-nodeSelector: t2-1
+nodeSelector:
+  hostname: t2-1
+
+securityContext:
+  runAsNonRoot: true
+  runAsUser: 1001
