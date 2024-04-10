@@ -1,5 +1,5 @@
 nodeSelector:
-  hostname: t2-1
+  kubernetes.io/hostname: t2-1
 
 securityContext:
   runAsNonRoot: true
